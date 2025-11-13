@@ -20,7 +20,7 @@ export default [
     },
   },
   {
-    files: ["__tests__/**/*.js"],
+    files: ["__test__/**/*.js"],
     languageOptions: {
       globals: {
         ...globals.jest,
