@@ -23,10 +23,7 @@ export default [
     files: ["__tests__/**/*.js"],
     languageOptions: {
       globals: {
-        ...globals.node, // optionnel
-      },
-      env: {
-        jest: true, // <-- important pour les tests
+        ...globals.jest,
       },
     },
     rules: {},
